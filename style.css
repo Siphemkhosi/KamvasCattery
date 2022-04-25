@@ -2,13 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-  
-}
+ 
+ }
     p {
-        text-align: center;
+        text-overflow: ellipsis;
        
     }
     p1{
         text-align: justify;
     }
+    .row{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @media screen and (max-width: 688px){
+           .row{
+               width: 100%;
+               margin-left: auto;
+               margin-right: auto;
+           }
+           h1{
+               font-size: medium;
+           }
+          h2{
+              font-size: small;
+          }
+         
+      
+          }
+        
